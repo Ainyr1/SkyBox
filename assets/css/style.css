@@ -105,6 +105,9 @@ body{
 a{
     text-decoration: none;
 }
+html{
+    scroll-behavior: smooth;
+}
 /* CONTAINERS */
 .content__wrapper{
     width: 1213px;
