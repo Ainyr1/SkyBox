@@ -18,7 +18,7 @@
     src: url(../fonts/Comfortaa-Bold.ttf) format("truetype");
     font-style: normal;
     font-weight: 700;
-    font-display: space;
+    font-display: swap;
 }
 /* -----------Подключение Poppins------------ */
 @font-face {
