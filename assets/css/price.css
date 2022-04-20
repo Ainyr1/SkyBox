@@ -201,14 +201,12 @@ a{
 .price__name{
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 900;
     font-size: 72px;
-    line-height: 84px;
-    text-align: center;
-    letter-spacing: 0.285em;
+    line-height: 70px;
+    letter-spacing: 0.405em;
     text-transform: uppercase;
     color: #3B668D;
-    white-space: nowrap;
 }
 .price__text{
     font-family: 'Montserrat';
