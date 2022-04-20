@@ -4,21 +4,21 @@
     src: url(../fonts/Comfortaa-Regular.ttf) format("truetype");
     font-style: normal;
     font-weight: 400;
-    font-display: space;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Comfortaa';
     src: url(../fonts/Comfortaa-Medium.ttf) format("truetype");
     font-style: normal;
     font-weight: 500;
-    font-display: space;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Comfortaa';
     src: url(../fonts/Comfortaa-Bold.ttf) format("truetype");
     font-style: normal;
     font-weight: 700;
-    font-display: space;
+    font-display: swap;
 }
 /* -----------Подключение Poppins------------ */
 @font-face {
@@ -26,7 +26,7 @@
     src: url(../fonts/Poppins-Medium.ttf) format("truetype");
     font-style: normal;
     font-weight: 500;
-    font-display: space;
+    font-display: swap;
 }
 /* -----------Подключение Roboto------------ */
 @font-face {
@@ -34,35 +34,35 @@
     src: url(../fonts/Roboto-Black.ttf) format("truetype");
     font-style: normal;
     font-weight: 900;
-    font-display: space;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Roboto';
     src: url(../fonts/Roboto-Bold.ttf) format("truetype");
     font-style: normal;
     font-weight: 700;
-    font-display: space;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Roboto';
     src: url(../fonts/Roboto-Light.ttf) format("truetype");
     font-style: normal;
     font-weight: 300;
-    font-display: space;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Roboto';
     src: url(../fonts/Roboto-Regular.ttf) format("truetype");
     font-style: normal;
     font-weight: 400;
-    font-display: space;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Roboto';
     src: url(../fonts/Roboto-Medium.ttf) format("truetype");
     font-style: normal;
     font-weight: 500;
-    font-display: space;
+    font-display: swap;
 }
 /* -----------Подключение Montserrat------------ */
 @font-face {
@@ -70,28 +70,28 @@
     src: url(../fonts/Montserrat-Regular.ttf) format("truetype");
     font-style: normal;
     font-weight: 400;
-    font-display: space;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Montserrat';
     src: url(../fonts/Montserrat-Medium.ttf) format("truetype");
     font-style: normal;
     font-weight: 500;
-    font-display: space;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Montserrat';
     src: url(../fonts/Montserrat-SemiBold.ttf) format("truetype");
     font-style: normal;
     font-weight: 600;
-    font-display: space;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Montserrat';
     src: url(../fonts/Montserrat-Bold.ttf) format("truetype");
     font-style: normal;
     font-weight: 700;
-    font-display: space;
+    font-display: swap;
 }
 *{
     margin: 0;
