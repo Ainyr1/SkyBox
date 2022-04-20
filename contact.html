@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
     <title>SkyBox</title>
 </head>
 <body>
@@ -13,8 +13,8 @@
             <a href="#main" class="header__logo">SkyBox</a>
             <nav class="header__nav">
                 <a href="index.html" class="nav__item">Home</a>
-                <a href="price.html" class="nav__item">Pricing</a>
-                <a href="contact.html" class="nav__item">Contact</a>
+                <a href="#" class="nav__item">Pricing</a>
+                <a href="#" class="nav__item">Contact</a>
             </nav>
             <div class="header__log">
                 <a href="login.html" class="div log__btn">Login</a>
@@ -22,20 +22,30 @@
             </div>
         </div>
     </header>
-    <section class="login__section" id="main">
-        <div class="login__container">
-            <p class="login__title">Login</p>
-            <p class="login__name">online storage</p>
-            <form action="#">
-                <label for="mail">Email</label>
-                <input type="email" required placeholder="mail@example.com" id="mail">
-            </form>
-            <form action="#">
-                <label for="pass">Password</label>
-                <input type="password" required placeholder="***********" id="pass">
-            </form>
-            <a href="profile.html" class="login__btn">Login</a>
-            <a href="#" class="forget__password">Forget Password</a>
+    <section class="contact__section">
+        <div class="contact__container">
+            <p class="contact__title">Contact</h2>
+            <p class="contact__name">Online storage</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2252.559807315096!2d51.79394541551187!3d55.62707480914987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415f93726cd900db%3A0x6466deefbe381af3!2z0J3QuNC20L3QtdC60LDQvNGB0LrQuNC5INC40L3QtNGD0YHRgtGA0LjQsNC70YzQvdGL0Lkg0YLQtdGF0L3QuNC60YPQvA!5e0!3m2!1sru!2sru!4v1649683879315!5m2!1sru!2sru" width="1920" height="838" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <section class="drop__section">
+        <div class="drop__container">
+            <p class="drop__title">Drop us a line</p>
+            <p class="drop__name">Lorem ipsum dolor sit amet.</p>
+            <div>
+                <p class="drop__text">Email</p>
+                <input type="email" required placeholder="mail@example.com" class="drop__email_contact">
+            </div>
+            <div>
+                <p class="drop__text">Name</p>
+                <input type="text" required placeholder="John Doe" class="drop__name_contact">
+            </div>
+            <textarea cols="30" rows="10" placeholder="Message"></textarea>
+            <div>
+                <p class="drop__subtitle">We do not share your personal data.</p>
+                <a href="#">Subscribe</a>
+            </div>
         </div>
     </section>
     <section class="download__section" id="download">
